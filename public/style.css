@@ -2,10 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:  Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,21 +15,20 @@ html, body {
 }
 
 /* Header */
-
 header {
   background-color: #66206f;
   width: 100%;
   position: fixed;
   z-index: 1;
 }
+
 .color-navbarDropdow {
   background-color: #f2ecf2;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75); 
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .color-navbarDropdow a:hover {
   color: #ff9f00;
-  font-size: 18px;
 }
 
 input.form-pesquisar {
@@ -44,16 +44,14 @@ input.form-pesquisar {
 
 input.form-pesquisar:focus {
   outline: none;
-} 
+}
 
- input.form-pesquisar:hover {
+input.form-pesquisar:hover {
   background-color: #ded2bd;
-} 
-
+}
 
 /* menu de pesquisa */
-
-ul#menu{
+ul#menu {
   display: none;
   overflow-y: auto;
   top: 90px;
@@ -64,26 +62,26 @@ ul#menu{
   width: 180px;
   height: 300px;
   background-color: #f2ecf2;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75); 
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
-ul#menu li{
+
+ul#menu li {
   position: relative;
-  padding: 5px 20px; 
+  padding: 5px 20px;
   width: 100%;
 }
+
 ul#menu a {
   text-decoration: none;
   color: #66206f;
   font-size: 18px;
 }
+
 ul#menu a:hover {
   color: #ff9f00;
-  font-size: 20px;
 }
 
-
 /* home - main */
-
 div.car-img-overlay {
   background-color: #66206f;
   width: 100%;
@@ -99,14 +97,14 @@ img.imagem-home-principal {
   background-image: url(/public/images/homeOffice.jpg);
   margin: 90px auto;
   margin-bottom: 0;
-  background-size: cover ;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 h5.card-title {
   font-family: 'lato';
   text-align: center;
-  background-color: rgba(0,0,0,0.70);
+  background-color: rgba(0, 0, 0, 0.70);
   width: 100%;
   z-index: 2;
   color: #ff9f00;
@@ -131,7 +129,8 @@ strong.strong-developer {
 
 div.div-card-texto {
   text-align: center;
-  background-color: rgba(0,0,0,0.80); ;
+  background-color: rgba(0, 0, 0, 0.80);
+  ;
   color: white;
   z-index: 2;
   font-size: 18px;
@@ -148,6 +147,7 @@ button.botao-titulo-card {
   border: none;
   transition: 0.5s;
 }
+
 a.a-botao-titulo-card {
   text-decoration: none;
   color: white;
@@ -171,11 +171,12 @@ div.sobre-mim {
   height: 100%;
   z-index: -1;
 }
+
 img.img-sobre {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* divisória */
@@ -184,13 +185,13 @@ div.divisoria {
   padding: 20px 0;
   text-align: center;
   width: 80%;
-  background-color: rgba(0,0,0,0.10);
+  background-color: rgba(0, 0, 0, 0.10);
 }
+
 div.divisoria h1 {
   color: gray;
   font-size: 30px;
 }
-
 
 a.controles-troca-foto-carousel {
   z-index: 0;
@@ -204,7 +205,6 @@ a.controles-troca-foto-carousel {
 }
 
 /* alguns de nossos sites carousel slider */
-
 div.div-imagem-slide {
   width: 100%;
   height: 100%;
@@ -217,15 +217,18 @@ img.imagem-slide {
   height: 100%;
   z-index: 999;
   padding: 50px 5.5%;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* conecte seus interesses */
-
 .section-header {
   text-align: center;
   width: 100%;
   margin-top: 30px;
+}
+
+div.a-quadradinhos {
+  cursor: pointer;
 }
 
 div.a-quadradinhos img {
@@ -255,26 +258,23 @@ div.a-quadradinhos img {
 .titulo-quadradinhos a {
   transition: 0.4s;
 }
+
 .titulo-quadradinhos a:hover {
   color: #ff9f00;
-  transition-timing-function: ease-in-out;
   text-decoration: none;
-  font-size: 22px;
 }
 
 .quadradinhos-imagem-texto:hover {
   background-color: #66206f;
   color: white;
-  transition-timing-function: ease-in-out;
   border-radius: 5px;
   border: 1px solid #66206f;
-  -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-  filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+  -webkit-filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+  filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
   transform: scale(1.05);
 }
 
 /* outros modelos de sites */
-
 section.portfolio-section {
   width: 100%;
   margin-top: 30px;
@@ -292,10 +292,10 @@ section.portfolio-section {
 .sites-portfolio-div-fotos {
   border: 1px solid #66206f;
   margin-bottom: 50px;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.sites-portfolio-div-fotos img{
+.sites-portfolio-div-fotos img {
   width: 100%;
 }
 
@@ -315,7 +315,6 @@ section.portfolio-section {
 }
 
 /* formulario */
-
 section.formulario-contato {
   background-color: #f6f6f6;
   width: 100%;
@@ -354,14 +353,15 @@ form.formulario-contato-form label {
   color: gray;
   margin-bottom: 2px;
 }
- form.formulario-contato-form textarea {
+
+form.formulario-contato-form textarea {
   outline: none;
   padding-left: 10px;
   padding-top: 5px;
   margin-top: 20px;
   width: 100%;
   border-radius: 2px;
- }
+}
 
 #estado {
   width: 80px;
@@ -374,46 +374,43 @@ form.formulario-contato-form label {
 
 #data {
   width: 200px;
- margin-left: 5px;
+  margin-left: 5px;
 }
 
- label.mensagem-text-area {
- width: 100%;
- text-align: center;
- margin-top: 20px;
- margin-bottom: 20px;
- }
+label.mensagem-text-area {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
- input.botao-formulario-contato {
+input.botao-formulario-contato {
   transition: 0.5s;
- }
+}
 
- input.botao-formulario-contato:hover {
+input.botao-formulario-contato:hover {
   transition-timing-function: ease-in-out;
   font-size: 16px;
   background-color: #1cbd41;
- }
+}
 
- .formulario-contato-form input[type='text']:hover {
+.formulario-contato-form input[type='text']:hover {
   background-color: #f4eff4;
- }
+}
 
 .formulario-contato-form input[type='email']:hover {
   background-color: #f4eff4;
- }
+}
 
 .formulario-contato-form input[type='date']:hover {
   background-color: #f4eff4;
- }
+}
 
 .formulario-contato-form textarea:hover {
   background-color: #f4eff4;
- }
-
-
+}
 
 /* modal do formulário de contato */
-
 .modal {
   border-radius: 5px;
   width: 40%;
@@ -424,28 +421,33 @@ form.formulario-contato-form label {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 div.modal-content {
   position: absolute;
   background-color: #f6f6f6;
   border-radius: 5px;
 }
+
 button.close {
   position: absolute;
   font-size: 40px;
   margin-top: 15px;
   margin-left: 94%;
 }
+
 button.close p a {
   color: red;
   font-size: 40px;
   text-decoration: none;
 }
+
 p.modal-text {
   margin-top: 20px;
   color: black;
   font-size: 30px;
   text-align: center;
 }
+
 .modal img {
   width: 60%;
   height: 60%;
@@ -454,7 +456,6 @@ p.modal-text {
 }
 
 /* Footer */
-
 footer {
   background-color: #66206f;
   width: 100%;
@@ -475,28 +476,30 @@ div.ul-li-a {
   color: white;
   font-size: 20px;
 }
- ul.ul-icones {
+
+ul.ul-icones {
   width: 98%;
   list-style-type: none;
   overflow: hidden;
- }
+}
 
- li.li-icones  {
+li.li-icones {
   float: right;
   padding: 10px;
- }
- a.a-icones {
+}
+
+a.a-icones {
   text-decoration: none;
   color: white;
   font-size: 20px;
   cursor: pointer;
- }
+}
+
 a.a-icones:hover {
   color: #ff9f00;
 }
 
 /* página sobre */
-
 h5.card-title-sobre {
   text-align: center;
   z-index: 2;
@@ -516,39 +519,47 @@ div.div-card-texto-sobre {
 
 
 /* media screen */
-
 @media screen and (max-width: 768px) {
   h5.card-title {
     font-size: 30px;
   }
+
   form.form-inline {
     display: block;
     width: 400px;
-   }
+  }
+
   div.div-card-texto {
     width: 400px;
     font-size: 15px;
   }
+
   h5.card-title {
     width: 60%;
   }
+
   div.divisoria h1 {
     font-size: 23px;
   }
+
   h1.widget-title {
     font-size: 22px;
   }
-  p.conect-mensagem{
+
+  p.conect-mensagem {
     font-size: 14px;
   }
+
   div.quadradinhos-imagem-texto {
     width: 90%;
     height: 100%;
     margin: 20px auto;
   }
+
   form.formulario-contato-form {
     width: 90%;
   }
+
   #data {
     width: 35%;
   }
@@ -564,169 +575,208 @@ div.div-card-texto-sobre {
   form.formulario-contato-form {
     width: 70%;
   }
+
   form.form-inline {
     display: block;
     width: 400px;
-   }
-   div.modal {
+  }
+
+  div.modal {
     width: 50%;
   }
- }
+}
 
- @media screen and (max-width: 575px) {
-   div.sobre-mim {
+@media screen and (max-width: 575px) {
+  div.sobre-mim {
     width: 96%;
     font-size: 10px;
-   }
-   div.modal {
+  }
+
+  div.modal {
     width: 80%;
   }
-   form.form-inline {
+
+  form.form-inline {
     display: block;
     width: 300px;
-   }
-   .titulo-modelo-site {
-    font-size: 20px;
-   }
- }
-
- @media screen and (max-width: 500px) {
-main.main-formulario-contato {
-  width: 100%;
-}
-.titulo-modelo-site {
-  font-size: 17px;
-}
-section.formulario-contato {
-  width: 100%;
-  margin-top: -30px;
-}
-form.formulario-contato-form {
-  margin-bottom: 10px;
-  margin-top: 20px;
-  border-radius: 1px;
-  width: 90%;
-  border : 1px solid rgb(189, 187, 187);
-}
-h1.chamada-formulario-contato {
-  margin-top: -10px;
-  font-size: 20px;
-}
-div.div-card-texto {
-  margin-top: 20px;
-  font-size: 15px;
-  width: 100%;
-}
-div.div-card-texto-sobre {
-  font-size: 15px;
-}
-h5.card-title {
-  margin-top: 70px;
-  width: 190px;
-  font-size: 10px;
-}
- small.small-developer {
-  font-size: 20px;
- }
- strong.strong-developer {
-  font-size: 20px;
- }
- img.botao-menu-mobile {
-  width: 100px;
-  height: 40px;
- }
- img.imagem-home-principal {
- margin-top: 0;
- height: 300px;
- }
- b {
-  color : #66206f;
- }
-strong em {
-  font-size: 10px;
-}
-strong.um-pouco-sobre-mim {
-  font-size: 8px;
-  color : #66206f;
-}
-button.botao-titulo-card {
-  font-size: 10px;
-}
-div.divisoria {
-  width: 90%;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-div.divisoria h1 {
-  font-size: 15px;
-}
-div#sobre-mim {
-  margin-top: 10px;
-  margin-bottom: 20px;
- }
- h1.widget-title {
-  font-size: 18px;
- }
- div.carousel-item {
-  margin-top: -50px;
- }
- p.conect-mensagem {
-  font-size: 12px;
- }
- form.formulario-contato-form label {
-  font-size: 12px;
- }
- form.formulario-contato-form input {
-  border-radius: 1px;
-  font-size: 12px;
-  height: 15px;
-  margin-bottom: 5px;
-  border : 1px solid rgb(189, 187, 187);
- }
- form.formulario-contato-form input[type='date']  {
-  font-size: 10px;
- display: block;
- }
- form.formulario-contato-form input[id='estado'] {
-  font-size: 12px;
-  display: block;
- }
- form.formulario-contato-form label.estado{
-  margin-left: 0;
- }
- input#btn {
-  font-size: 15px;
-  height: 40px;
- }
- textarea#mensagem {
-  border-radius: 1px;
-  font-size: 12px;
-  height: 100px;
-  border : 1px solid rgb(189, 187, 187);
- }
- a.a-icones {
-  font-size: 15px;
- }
- svg {
-  width: 12px;
-  height: 12px;
- }
- span.spanNandoDev {
-  font-size: 15px;
- } 
- a.controles-troca-foto-carousel {
-  margin-top: 41%;
-  height: 30px;
-  width: 30px;
- }
- .modal {
-  border: 1px solid rgb(189, 187, 187);
-  border-radius: 10px;
-  background-color: #66206f;
-  display: block;
-  height: 60%;
-  width: 200px;
   }
+
+  .titulo-modelo-site {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main.main-formulario-contato {
+    width: 100%;
+  }
+
+  .titulo-modelo-site {
+    font-size: 17px;
+  }
+
+  section.formulario-contato {
+    width: 100%;
+    margin-top: -30px;
+  }
+
+  form.formulario-contato-form {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 1px;
+    width: 90%;
+    border: 1px solid rgb(189, 187, 187);
+  }
+
+  h1.chamada-formulario-contato {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+
+  div.div-card-texto {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  div.div-card-texto-sobre {
+    font-size: 15px;
+  }
+
+  h5.card-title {
+    margin-top: 70px;
+    width: 190px;
+    font-size: 10px;
+  }
+
+  small.small-developer {
+    font-size: 20px;
+  }
+
+  strong.strong-developer {
+    font-size: 20px;
+  }
+
+  img.botao-menu-mobile {
+    width: 100px;
+    height: 40px;
+  }
+
+  img.imagem-home-principal {
+    margin-top: 0;
+    height: 300px;
+  }
+
+  b {
+    color: #66206f;
+  }
+
+  strong em {
+    font-size: 10px;
+  }
+
+  strong.um-pouco-sobre-mim {
+    font-size: 8px;
+    color: #66206f;
+  }
+
+  button.botao-titulo-card {
+    font-size: 10px;
+  }
+
+  div.divisoria {
+    width: 90%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  div.divisoria h1 {
+    font-size: 15px;
+  }
+
+  div#sobre-mim {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  h1.widget-title {
+    font-size: 18px;
+  }
+
+  div.carousel-item {
+    margin-top: -50px;
+  }
+
+  p.conect-mensagem {
+    font-size: 12px;
+  }
+
+  form.formulario-contato-form label {
+    font-size: 12px;
+  }
+
+  form.formulario-contato-form input {
+    border-radius: 1px;
+    font-size: 12px;
+    height: 15px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(189, 187, 187);
+  }
+
+  form.formulario-contato-form input[type='date'] {
+    font-size: 10px;
+    display: block;
+  }
+
+  form.formulario-contato-form input[id='estado'] {
+    font-size: 12px;
+    display: block;
+  }
+
+  form.formulario-contato-form label.estado {
+    margin-left: 0;
+  }
+
+  input#btn {
+    font-size: 15px;
+    height: 40px;
+  }
+
+  textarea#mensagem {
+    border-radius: 1px;
+    font-size: 12px;
+    height: 100px;
+    border: 1px solid rgb(189, 187, 187);
+  }
+
+  a.a-icones {
+    font-size: 15px;
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  span.spanNandoDev {
+    font-size: 15px;
+  }
+
+  a.controles-troca-foto-carousel {
+    margin-top: 41%;
+    height: 30px;
+    width: 30px;
+  }
+
+  .modal {
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 10px;
+    background-color: #66206f;
+    display: block;
+    height: 60%;
+    width: 200px;
+  }
+
   button.close {
     display: block;
     margin-top: 0;
@@ -734,11 +784,13 @@ div#sobre-mim {
     width: 15%;
     height: 100%;
   }
-  button.close p a{
-  font-size: 30px;
-  left: -10px;
-  top: 0;
+
+  button.close p a {
+    font-size: 30px;
+    left: -10px;
+    top: 0;
   }
+
   p.modal-text {
     font-size: 20px;
   }
