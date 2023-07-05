@@ -94,7 +94,7 @@ div.car-img-overlay {
 img.imagem-home-principal {
   height: 600px;
   width: 100%;
-  background-image: url(/public/images/homeOffice.jpg);
+  background-image: url(https://fernandopdeandrade.github.io/portfolio-github-io/public/images/homeOffice.jpg);
   margin: 90px auto;
   margin-bottom: 0;
   background-size: cover;
