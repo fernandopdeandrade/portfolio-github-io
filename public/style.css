@@ -327,9 +327,9 @@ form.formulario-contato-form {
   width: 50%;
   margin: 0 auto;
   padding: 20px 2%;
-  border: 1px solid black;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  border: 1px solid gray;
+  margin-top: 20px;
+  margin-bottom: 10px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -352,6 +352,11 @@ form.formulario-contato-form label {
   font-size: 20px;
   color: gray;
   margin-bottom: 2px;
+}
+
+form .carinha-sorrindo {
+  height: 50px;
+  width: 50px;
 }
 
 form.formulario-contato-form textarea {
@@ -386,6 +391,8 @@ label.mensagem-text-area {
 
 input.botao-formulario-contato {
   transition: 0.5s;
+  margin-top: 20px;
+  border: none;
 }
 
 input.botao-formulario-contato:hover {
