@@ -1,13 +1,8 @@
 window.onload = function () {
-
   const botao_pesquisa = document.getElementById("pesquisa");
   const menu_li_a = document.querySelectorAll('.menu li a');
   const menu = document.getElementById("menu");
   const input_pesquisa = document.querySelector("#input_pesquisa");
-  const modal = document.querySelector('#modal');
-  const btn = document.querySelector("#btn");
-  const closed = document.querySelector("#close");
-  const email = document.querySelector("#email");
 
   input_pesquisa.addEventListener("mouseover", function (e) {
     e.preventDefault();
@@ -31,6 +26,7 @@ window.onload = function () {
   botao_pesquisa.addEventListener("click", function (e) {
     e.preventDefault();
     const elemento = document.getElementById(input_pesquisa.value);
+
     if (elemento) {
       elemento.scrollIntoView({
         behavior: "smooth",
@@ -41,15 +37,39 @@ window.onload = function () {
     }
   })
 
-  function validaEmail(email) {
-    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-    return regex.test(email);
-  }
+  btn.onclick = function () {
+    const emailRegex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/
 
-  validaEmail(email);
+    const nome = document.querySelector("#nome").value;
+    const email = document.querySelector("#email").value;
+    const cidade = document.querySelector("#cidade").value;
+    const mensagem = document.querySelector("#mensagem").value;
 
-  closed.onclick = function (e) {
-    e.preventDefault();
-    modal.style.display = "none";
+    if (nome.length < 3) {
+      alert("Nome precisa ter mais de 3 caracteres!");
+      return false;
+    }
+
+    if (!emailRegex.test(email)) {
+      alert("Email precisa ter esse formato = user@email.com");
+      return false;
+    }
+
+    if (cidade.length < 3) {
+      alert("Cidade precisa ter mais de 3 caracteres!");
+      return false;
+    }
+
+    if (mensagem.length < 10) {
+      alert("Mensagem precisa ter mais de 10 caracteres!");
+      return false;
+    }
+
+    setTimeout(function () {
+    document.querySelector("#nome").value = "";
+    document.querySelector("#email").value = "";
+    document.querySelector("#cidade").value = "";
+    document.querySelector("#mensagem").value = "";
+    }, 500);
   }
 }
