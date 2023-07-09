@@ -9,7 +9,6 @@ window.onload = function () {
   const closed = document.querySelector("#close");
   const email = document.querySelector("#email");
 
-
   input_pesquisa.addEventListener("mouseover", function (e) {
     e.preventDefault();
     menu.style.display = "block";
@@ -46,6 +45,8 @@ window.onload = function () {
     var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     return regex.test(email);
   }
+
+  validaEmail(email);
 
   closed.onclick = function (e) {
     e.preventDefault();
